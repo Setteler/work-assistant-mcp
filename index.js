@@ -15,7 +15,7 @@ app.post("/mcp/summarize_text", async (req, res) => {
     res.json({
       summary: text.slice(0, 150),
       key_points: [
-        "Structured MCP response",
+        "Structured MCP response",summarize_text
         "Ready for n8n Cloud"
       ],
       action_items: [
